@@ -1,4 +1,4 @@
-# builder-one
+# mailerlite-demo
 
 ## Project setup
 ```
