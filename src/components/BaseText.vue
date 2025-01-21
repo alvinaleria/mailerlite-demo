@@ -1,5 +1,5 @@
 <template>
-  <textarea class="w-full h-[162px] p-5 text-white border-slate-50 bg-slate-500" value="Click here to change copy" @focus="handleFocusIn($event)" @focusout="handleFocusOut($event)" @change="updateParentCopy($event.target.value)"></textarea>
+  <textarea class="resize-none w-full h-[162px] p-5 text-white border-slate-50 bg-slate-500" value="Click here to change copy" @focus="handleFocusIn($event)" @focusout="handleFocusOut($event)" @change="updateParentCopy($event.target.value)"></textarea>
 </template>
 <script>
 export default {
